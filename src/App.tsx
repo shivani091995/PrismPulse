@@ -6,7 +6,7 @@ import  './App.css';
 
 function App() {
   return (
-    <div className="w-screen h-screen">
+    <div className="container">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/gradient" element={<GradientPicker/>} />

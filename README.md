@@ -24,7 +24,7 @@ Both components allow users to generate colors dynamically and provide an engagi
 
 
 
-## 🔧 Installation & Setup
+## Installation & Setup
 ### Prerequisites
 Ensure you have the following installed:
 - **Node.js** (v14+ recommended)
@@ -33,7 +33,7 @@ Ensure you have the following installed:
 ### Steps to Run Locally
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/random-color-generator.git
+   git clone https://github.com/shivani091995/PrismPulse.git
    ```
 2. Navigate to the project directory:
    ```sh
@@ -62,7 +62,7 @@ Ensure you have the following installed:
 
 ---
 
-## 📜 Usage
+## Usage
 1. Click **"Change Color"** in the **Random Color Generator** to generate a new hex color.
 2. Click **"Generate"** in the **Gradient Generator** to create a new gradient.
 3. Use direction buttons (Top, Left, Right, etc.) to modify the gradient.
@@ -70,32 +70,22 @@ Ensure you have the following installed:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - **React** - UI framework
 - **Tailwind CSS** - Styling
 - **JavaScript (ES6+)** - Core logic
-- **Vite/CRA** - React app setup (if applicable)
+
 
 ---
 
-## 🎯 Future Enhancements
+## Future Enhancements
 - [ ] **Add a color picker** for manual selection.
 - [ ] **Copy-to-clipboard button** for easy color code copying.
 - [ ] **Save previous colors/gradients** in a history section.
 
----
 
-## 🤝 Contributing
-Feel free to **fork** this repo, submit PRs, or suggest improvements via **issues**!
 
----
+## Author
+Developed with ❤️ by **Shivani**  
 
-## 📜 License
-This project is **open-source** and available under the **MIT License**.
-
----
-
-## ✨ Author
-Developed with ❤️ by **[Your Name]**  
-GitHub: [@yourusername](https://github.com/yourusername)
 

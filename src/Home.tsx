@@ -27,11 +27,10 @@ const Home: React.FC = () => {
               Experiment with Gradients
             </h2>
             <p className="text-gray-600 mb-6 max-w-[500px]">
-              Seamlessly shift through endless gradients, in every direction!
-              Generate and copy the code. It's that simple!
+              Seamlessly shift through endless gradients, in every direction! Generate and copy the code. It's that simple!
             </p>
             <Link to="/gradient">
-              <button className="mt-auto px-8 py-4 max-w-[200px] max-h-[50px] bg-slate-950 text-white font-semibold rounded-lg hover:bg-slate-800 transition">
+              <button className="mt-auto px-8 py-1 max-w-[200px] max-h-[50px] bg-slate-950 text-white font-semibold rounded-lg hover:bg-slate-800 transition">
                 Generate
               </button>
             </Link>
@@ -48,10 +47,10 @@ const Home: React.FC = () => {
               HexVibe
             </h2>
             <p className="text-gray-600 mb-6 max-w-[500px]">
-              One click, infinite colors—unleash the power of randomness!
+              One click, infinite colors—unleash the power of randomness! Generate and copy the code.
             </p>
             <Link to="/color">
-              <button className="mt-auto px-8 py-4 max-w-[200px] max-h-[50px] bg-slate-950 text-white font-semibold rounded-lg hover:bg-slate-800 transition">
+              <button className="mt-auto px-8 py-1 max-w-[200px] max-h-[50px] bg-slate-950 text-white font-semibold rounded-lg hover:bg-slate-800 transition">
                 Generate
               </button>
             </Link>

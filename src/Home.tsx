@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Home: React.FC = () => {
   return (
-    <div className="min-h-[70vh] w-full bg-slate-950 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-[70vh] w-screen bg-slate-950 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl my-32 mx-auto">
         {/* Header Section */}
         <header className="text-center mb-16 max-w-[700px] mx-auto">

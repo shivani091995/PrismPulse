@@ -45,11 +45,11 @@ const GradientPicker = () => {
   }, []);
 
   return (
-    <div className="w-screen min-h-[70vh] bg-[#FFF0BD] flex flex-col items-center justify-center overflow-hidden p-8">
+    <div className="min-w-[1100px] min-h-[70vh] bg-[#FFF0BD] flex flex-col items-center justify-center overflow-hidden p-8">
       {/* Main Container - Buttons and Gradient */}
       <div className="w-screen h-screen bg-[#FFF0BD] flex flex-col items-center justify-center overflow-hidden p-8">
   {/* Main Container - Buttons and Gradient */}
-  <div className="flex items-center justify-center gap-10 flex-row max-w-[1100px] max-h-[750px]">
+  <div className="flex items-center justify-center gap-4 flex-row max-w-[1100px] max-h-[750px]">
     {/* Left Column - Directions */}
     <div className="flex flex-col items-center gap-6 mt-20 max-w-[180px] max-h-[500px]">
       <button

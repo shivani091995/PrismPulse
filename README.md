@@ -14,13 +14,12 @@ Both components allow users to generate colors dynamically and provide an engagi
 - Generates a **random hex color**.
 - Allows users to **regenerate colors** with a button click.
 - Displays the **hex code** of the selected color.
-- Uses **Tailwind CSS** for styling.
 
 ###  Gradient Generator
 - Generates a **random gradient** using three colors.
 - Supports multiple **gradient directions** (top, bottom, left, right, etc.).
 - Displays the generated **CSS code** for easy use.
-- Styled with **Tailwind CSS**.
+
 
 
 
@@ -35,45 +34,30 @@ Ensure you have the following installed:
    ```sh
    git clone https://github.com/shivani091995/PrismPulse.git
    ```
-2. Navigate to the project directory:
-   ```sh
-   cd random-color-generator
-   ```
 3. Install dependencies:
    ```sh
    npm install
    ```
-   _or_
+4. Start the development server: (for Vite)
    ```sh
-   yarn install
+   npm run dev 
    ```
-4. Start the development server:
-   ```sh
-   npm start
-   ```
-   _or_
-   ```sh
-   yarn start
-   ```
+ 
 5. Open your browser and go to:
    ```sh
-   http://localhost:3000
+   http://localhost:5173
    ```
 
 ---
 
-## Usage
-1. Click **"Change Color"** in the **Random Color Generator** to generate a new hex color.
-2. Click **"Generate"** in the **Gradient Generator** to create a new gradient.
-3. Use direction buttons (Top, Left, Right, etc.) to modify the gradient.
-4. Copy the displayed **CSS gradient code** for use in your own projects!
+
 
 ---
 
 ## Technologies Used
 - **React** - UI framework
 - **Tailwind CSS** - Styling
-- **JavaScript (ES6+)** - Core logic
+- **Typescript** - Core logic
 
 
 ---

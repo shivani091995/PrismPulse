@@ -6,12 +6,15 @@ import  './App.css';
 
 function App() {
   return (
-    
+    <div className="w-screen h-screen">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/gradient" element={<GradientPicker/>} />
         <Route path="/color" element={<RandomColor/>} />
       </Routes>
+
+    </div>
+      
     
   );
 }

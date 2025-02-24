@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+/* body{
     background-color: #020617;
 }
 .container {
@@ -13,6 +13,6 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
+  } */
   
   

@@ -19,7 +19,7 @@ const RandomColor = () => {
   }, []);
 
   return (
-    <div className="w-screen h-screen flex flex-col items-center justify-center bg-gray-200 p-8">
+    <div className="w-screen min-h-[70vh] flex flex-col items-center justify-center bg-gray-200 p-8">
       {/* Heading */}
       <h1 className="font-extrabold text-3xl pb-3 text-slate-900 font-sans mt-5 max-w-[1100px]">
         <strong>HexVibe</strong>

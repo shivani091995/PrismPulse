@@ -45,7 +45,7 @@ const GradientPicker = () => {
   }, []);
 
   return (
-    <div className="w-screen h-screen bg-[#FFF0BD] flex flex-col items-center justify-center overflow-hidden p-8">
+    <div className="w-screen min-h-[70vh] bg-[#FFF0BD] flex flex-col items-center justify-center overflow-hidden p-8">
       {/* Main Container - Buttons and Gradient */}
       <div className="w-screen h-screen bg-[#FFF0BD] flex flex-col items-center justify-center overflow-hidden p-8">
   {/* Main Container - Buttons and Gradient */}

@@ -47,90 +47,95 @@ const GradientPicker = () => {
   return (
     <div className="w-screen h-screen bg-[#FFF0BD] flex flex-col items-center justify-center overflow-hidden p-8">
       {/* Main Container - Buttons and Gradient */}
-      <div className="flex items-center justify-center gap-10 flex-row">
-        {/* Left Column - Directions */}
-        <div className="flex flex-col items-center gap-6 mt-20">
-          <button
-            onClick={() => setDirection("top")}
-            className="p-4 bg-slate-900 w-[180px] rounded-3xl hover:animate-bounce font-extrabold text-emerald-400 font-mono text-xl"
-          >
-            Top
-          </button>
-          <button
-            onClick={() => setDirection("top left")}
-            className="p-4 bg-slate-900 w-[180px] rounded-3xl hover:animate-bounce font-extrabold text-emerald-400 font-mono text-xl"
-          >
-            Top Left
-          </button>
-          <button
-            onClick={() => setDirection("top right")}
-            className="p-4 bg-slate-900 w-[180px] rounded-3xl hover:animate-bounce font-extrabold text-emerald-400 font-mono text-xl"
-          >
-            Top Right
-          </button>
-          <button
-            onClick={() => setDirection("left")}
-            className="p-4 bg-slate-900 w-[180px] rounded-3xl hover:animate-bounce font-extrabold text-emerald-400 font-mono text-xl"
-          >
-            Left
-          </button>
-        </div>
+      <div className="w-screen h-screen bg-[#FFF0BD] flex flex-col items-center justify-center overflow-hidden p-8">
+  {/* Main Container - Buttons and Gradient */}
+  <div className="flex items-center justify-center gap-10 flex-row max-w-[1100px] max-h-[750px]">
+    {/* Left Column - Directions */}
+    <div className="flex flex-col items-center gap-6 mt-20 max-w-[180px] max-h-[500px]">
+      <button
+        onClick={() => setDirection("top")}
+        className="p-4 bg-slate-900 w-[180px] max-w-[180px] max-h-[60px] rounded-3xl hover:animate-bounce font-extrabold text-emerald-400 font-mono text-xl"
+      >
+        Top
+      </button>
+      <button
+        onClick={() => setDirection("top left")}
+        className="p-4 bg-slate-900 w-[180px] max-w-[180px] max-h-[60px] rounded-3xl hover:animate-bounce font-extrabold text-emerald-400 font-mono text-xl"
+      >
+        Top Left
+      </button>
+      <button
+        onClick={() => setDirection("top right")}
+        className="p-4 bg-slate-900 w-[180px] max-w-[180px] max-h-[60px] rounded-3xl hover:animate-bounce font-extrabold text-emerald-400 font-mono text-xl"
+      >
+        Top Right
+      </button>
+      <button
+        onClick={() => setDirection("left")}
+        className="p-4 bg-slate-900 w-[180px] max-w-[180px] max-h-[60px] rounded-3xl hover:animate-bounce font-extrabold text-emerald-400 font-mono text-xl"
+      >
+        Left
+      </button>
+    </div>
 
-        {/* Gradient Display */}
-        <div className="flex flex-col items-center gap-6">
-          <h1 className="font-extrabold text-3xl pb-3 text-slate-900 font-sans mt-5">
-           <strong>Gradient Alchemy</strong> 
-           <h3 className="font-semibold text-slate-900 text-xl mt-1">Blend Colors-Create Magic.</h3>
-          </h1>
-          <div
-            style={{
-              background: `linear-gradient(to ${direction}, ${color1}, ${color2}, ${color3})`,
-              
-            }}
-            className="w-[1100px] h-[750px] border border-black rounded-t-xl"
-          >
-            <div className="flex items-center justify-end gap-2 bg-slate-900 w-full h-11 rounded-t-xl pr-2">
-              <div className="rounded-full bg-yellow-500 w-4 h-4"></div>
-              <div className="rounded-full bg-green-600 w-4 h-4"></div>
-              <div className="rounded-full bg-red-600 w-4 h-4"></div>
-            </div>
-            <button
-              onClick={Colors}
-              className="flex items-center justify-center mx-auto my-[36rem] w-[180px] rounded-3xl p-4 bg-slate-900 hover:bg-blue-800 text-green-400 font-mono font-extrabold text-2xl"
-            >
-              Generate
-            </button>
-          </div>
+    {/* Gradient Display */}
+    <div className="flex flex-col items-center gap-6 max-w-[1100px] max-h-[750px]">
+      <h1 className="font-extrabold text-3xl pb-3 text-slate-900 font-sans mt-5 max-w-[700px] max-h-[50px]">
+        <strong>Gradient Alchemy</strong>
+        <h3 className="font-semibold text-slate-900 text-xl mt-1 max-w-[500px] max-h-[30px]">
+          Blend Colors - Create Magic.
+        </h3>
+      </h1>
+      <div
+        style={{
+          background: `linear-gradient(to ${direction}, ${color1}, ${color2}, ${color3})`,
+        }}
+        className="w-[1100px] max-w-[1100px] h-[750px] max-h-[750px] border border-black rounded-t-xl"
+      >
+        <div className="flex items-center justify-end gap-2 bg-slate-900 w-full h-11 rounded-t-xl pr-2 max-w-full max-h-[44px]">
+          <div className="rounded-full bg-yellow-500 w-4 h-4"></div>
+          <div className="rounded-full bg-green-600 w-4 h-4"></div>
+          <div className="rounded-full bg-red-600 w-4 h-4"></div>
         </div>
-
-        {/* Right Column - Directions */}
-        <div className="flex flex-col items-center gap-6 mt-20">
-          <button
-            onClick={() => setDirection("right")}
-            className="p-4 bg-slate-900 text-emerald-400 font-mono text-xl w-[180px] rounded-3xl hover:animate-bounce font-extrabold"
-          >
-            Right
-          </button>
-          <button
-            onClick={() => setDirection("bottom left")}
-            className="p-4 bg-slate-900 text-emerald-400 font-mono text-xl w-[180px] rounded-3xl hover:animate-bounce font-extrabold"
-          >
-            Bottom Left
-          </button>
-          <button
-            onClick={() => setDirection("bottom right")}
-            className="p-4 bg-slate-900 text-emerald-400 font-mono text-xl w-[180px] rounded-3xl hover:animate-bounce font-extrabold"
-          >
-            Bottom Right
-          </button>
-          <button
-            onClick={() => setDirection("bottom")}
-            className="p-4 bg-slate-900 text-emerald-400 font-mono text-xl w-[180px] rounded-3xl hover:animate-bounce font-extrabold"
-          >
-            Bottom
-          </button>
-        </div>
+        <button
+          onClick={Colors}
+          className="flex items-center justify-center mx-auto my-[30rem] w-[180px] max-w-[180px] max-h-[60px] rounded-3xl p-4 bg-slate-900 hover:bg-blue-800 text-green-400 font-mono font-extrabold text-2xl"
+        >
+          Generate
+        </button>
       </div>
+    </div>
+
+    {/* Right Column - Directions */}
+    <div className="flex flex-col items-center gap-6 mt-20 max-w-[180px] max-h-[500px]">
+      <button
+        onClick={() => setDirection("right")}
+        className="p-4 bg-slate-900 text-emerald-400 font-mono text-xl w-[180px] max-w-[180px] max-h-[60px] rounded-3xl hover:animate-bounce font-extrabold"
+      >
+        Right
+      </button>
+      <button
+        onClick={() => setDirection("bottom left")}
+        className="p-4 bg-slate-900 text-emerald-400 font-mono text-xl w-[180px] max-w-[180px] max-h-[60px] rounded-3xl hover:animate-bounce font-extrabold"
+      >
+        Bottom Left
+      </button>
+      <button
+        onClick={() => setDirection("bottom right")}
+        className="p-4 bg-slate-900 text-emerald-400 font-mono text-xl w-[180px] max-w-[180px] max-h-[60px] rounded-3xl hover:animate-bounce font-extrabold"
+      >
+        Bottom Right
+      </button>
+      <button
+        onClick={() => setDirection("bottom")}
+        className="p-4 bg-slate-900 text-emerald-400 font-mono text-xl w-[180px] max-w-[180px] max-h-[60px] rounded-3xl hover:animate-bounce font-extrabold"
+      >
+        Bottom
+      </button>
+    </div>
+  </div>
+</div>
+
 
       {/* CSS Code Display (with proper spacing) */}
       <div className="bg-gray-100 p-4 rounded-xl w-[800px] text-center shadow-md mt-10 mb-8">
